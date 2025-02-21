@@ -6,7 +6,7 @@ class Solution{
       if(str1.length()<str2.length()){
         return GCD(str2, str1);
       }
-      else if(!(str1.rfind(str2,0)==0)){
+      else if(str1.rfind(str2,0)!=0){
         return "";
       }
       else if(str2.empty()){
