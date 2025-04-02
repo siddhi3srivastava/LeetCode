@@ -13,7 +13,9 @@ class Solution {
                 digits[i]++;
                 return digits;
             }
-            digits[i]=0;
+            else{
+                digits[i]=0;
+            }
         }
         int [] ans= new int[n+1];
         ans[0]=1;
