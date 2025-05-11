@@ -1,4 +1,4 @@
-// leetcode weekly contest 
+// leetcode weekly contest 449
 //question 2
 
 /*You are given an m x n matrix grid of positive integers. Your task is to determine if it is possible to make either one horizontal or one vertical cut on the grid such that:
@@ -49,4 +49,4 @@ class Solution {
         return false;
         
     }
-}©leetcode
+}
